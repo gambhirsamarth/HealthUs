@@ -12,7 +12,7 @@ const AboutUs = () => {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
             <p className="text-gray-700">
-              At XYZ Mental Health, our mission is to provide accessible and high-quality mental health services to individuals
+              At Health Us, our mission is to provide accessible and high-quality mental health services to individuals
               in need. We are dedicated to promoting mental well-being, fostering resilience, and empowering our clients to lead
               fulfilling lives. We strive to create a safe and inclusive space where everyone feels heard, understood, and supported
               on their journey towards emotional wellness.

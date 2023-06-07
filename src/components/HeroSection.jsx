@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../assets/home-image.avif'; // Update the file path based on your directory structure
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -8,9 +9,11 @@ const HeroSection = () => {
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold mb-4 mt-2 mx-4">Your Mental Well-being Matters</h1>
           <p className="text-lg mb-6 mt-2 mx-4">Discover a path to mental wellness and live a fulfilling life.</p>
+          <a href='http://chat.systenics.com/#/v1/' target='_blank'>
           <button className="bg-green-500 text-white py-2 px-4 rounded-full font-bold uppercase shadow hover:bg-green-600 mx-4">
             Get Started
           </button>
+          </a>
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0">
           <img src={heroImage} alt="Hero" className="rounded-lg shadow-lg" />
